@@ -4,8 +4,14 @@
   padding: 0;
 }
 
+.menu-iniziale, .logo, nav, .btn, .jumbotron, .intro{
+  border: 1px solid black;
+}
+
+
+
 /* INIZIO Header */
-header{
+.menu-iniziale{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,11 +25,6 @@ header{
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  
-}
-
-header, .logo, nav, .btn{
-  border: 1px solid black;
 }
 
 .logo, nav, .btn{
@@ -31,9 +32,6 @@ header, .logo, nav, .btn{
 }
 
 nav{
-  display: flex;
-  display: inline-block;
-  text-align: center;
   width: 60%;
 }
 
@@ -43,9 +41,17 @@ nav{
   width: 20%;
 }
 
-.link{
+ul{
   display: flex;
+  justify-content: center;
   align-items: center;
+  height: 30px;
+}
+
+li{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
   display: inline-block;
   padding: 0 10px;
 }
@@ -55,8 +61,32 @@ nav{
   justify-content: flex-end;
 }
 
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 30, 173);
+  height: 500px;
+}
 
-
-
-
+.intro{
+  background-color: rgb(224, 114, 215);
+  width: 700px;
+  height: 400px;
+}
 /* FINE Header */
+
+
+/* INIZIO Main */
+
+
+
+
+
+
+
+
+
+
+
+/* FINE Main */
