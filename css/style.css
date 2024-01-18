@@ -4,12 +4,59 @@
   padding: 0;
 }
 
-
+/* INIZIO Header */
 header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(168, 207, 241);
-  height: 100px;
+  height: 80px;
+}
+
+.container{
+  width: 800px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+
+header, .logo, nav, .btn{
   border: 1px solid black;
+}
+
+.logo, nav, .btn{
+  background-color: rgb(241, 179, 97);
+}
+
+nav{
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+}
+
+.logo, .btn{
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.btn{
+  display: flex;
+  justify-content: flex-end;
 }
 
 
 
+
+
+/* FINE Header */
