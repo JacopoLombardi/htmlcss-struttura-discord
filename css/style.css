@@ -4,14 +4,14 @@
   padding: 0;
 }
 
-.menu-iniziale, .logo, nav, .btn, .jumbotron, .intro{
+.start-menu, .logo, nav, .btn, .jumbotron, .intro, .img-descrizione-1, .text-descrizione-1, .img-descrizione-2, .text-descrizione-2, .img-descrizione-3, .text-descrizione-3{
   border: 1px solid black;
 }
 
 
 
 /* INIZIO Header */
-.menu-iniziale{
+.start-menu{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   height: 80px;
 }
 
-.container{
+.container-start-menu{
   width: 800px;
   height: 30px;
   display: flex;
@@ -79,14 +79,104 @@ li{
 
 /* INIZIO Main */
 
+/* INIZIO Prima Sezione */
+.descrizione-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.descrizione-1 .container, .img-descrizione-1, .text-descrizione-1{
+  height: 400px;
+}
+
+.descrizione-1 .container{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+
+.img-descrizione-1{
+  background-color: rgb(0, 183, 255);
+  width: 60%;
+}
+
+.text-descrizione-1{
+  background-color: pink;
+  width: 40%;
+}
+/* FINE Prima Sezione */
 
 
+/* INIZIO Seconda Sezione */
+.descrizione-2{
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.descrizione-2 .container, .img-descrizione-2, .text-descrizione-2{
+  height: 400px;
+}
+
+.descrizione-2 .container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: 900px;
+}
+
+.img-descrizione-2{
+  background-color: rgb(0, 183, 255);
+  width: 60%;
+}
+
+.text-descrizione-2{
+  background-color: pink;
+  width: 40%;
+}
+/* FINE Seconda Sezione */
 
 
+/* INIZIO Terza Sezione */
+.descrizione-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
 
+.descrizione-3 .container, .img-descrizione-3, .text-descrizione-3{
+  height: 400px;
+}
 
+.descrizione-3 .container{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
 
+.img-descrizione-3{
+  background-color: rgb(0, 183, 255);
+  width: 60%;
+}
 
-
+.text-descrizione-3{
+  background-color: pink;
+  width: 40%;
+}
+/* FINE Terza Sezione */
 
 /* FINE Main */
+
+
+
+
+
+
+
+
+
