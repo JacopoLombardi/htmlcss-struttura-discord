@@ -170,11 +170,32 @@ li{
 }
 /* FINE Terza Sezione */
 
+
+/* INIZIO Quarta Sezione */
+
+.descrizione-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  height: 1000px;
+}
+
+.img-text{
+  background-color: green;
+  width: 900px;
+  height: 700px;
+}
+/* FINE Quarta Sezione */
+
 /* FINE Main */
 
 
 
+/* INIZIO Footer */
 
+/* FINE Footer */
 
 
 
